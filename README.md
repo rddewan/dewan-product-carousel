@@ -2,7 +2,7 @@
 Dewan Product Carousel: Build a Product Carousel that slide horizontally in a efficient way.
 
 ## Features
-![Image Carousel](screenshot/image1.png = 300x400)
+![Image Carousel](screenshot/image1.png){: width="300" height="400"}
 
 
 
@@ -12,7 +12,7 @@ Flutter and Dart version : 3.3.10 - 2.18.6
 ```
  dewan_product_carousel:    
     git:
-      url: 
+      url:https://github.com/rddewan/dewan-product-carousel
       path: 
 ```
 Once you have installed the package you can import the package as shown below and start using it.
