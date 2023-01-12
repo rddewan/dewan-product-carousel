@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "dewan_product_carousel",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dewan_product_carousel (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "dewan_product_carousel (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "dewan_product_carousel_example",
+            "cwd": "example/dewan_product_carousel_example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dewan_product_carousel_example (profile mode)",
+            "cwd": "example/dewan_product_carousel_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "dewan_product_carousel_example (release mode)",
+            "cwd": "example/dewan_product_carousel_example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
