@@ -2,7 +2,7 @@
 Dewan Product Carousel: Build a Product Carousel that slide horizontally in a efficient way.
 
 ## Features
-![Image Carousel](screenshot/image1.png){: width="300" height="400"}
+![Image Carousel](screenshot/image1.png){:width="300" :height="400"}
 
 
 
