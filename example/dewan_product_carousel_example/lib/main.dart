@@ -201,6 +201,37 @@ class _MyHomePageState extends State<MyHomePage> {
                     },
                     
                   ),
+                ),
+
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: MProductGridCarouselWidget(
+                    boxWidth: MediaQuery.of(context).size.width,
+                    width: MediaQuery.of(context).size.width / 2,
+                    height: 600,
+                    //imageWidth: MediaQuery.of(context).size.width / 2,
+                    imageHeight: 160,                    
+                    cardElevation: 2,
+                    cardBorderRadius: 8,
+                    products: products,       
+                    outOfStockText: "SOLD OUT", 
+                    outOfStockTextStyle: const TextStyle(color: Colors.white),   
+                    productTypeBackgroundColor: Colors.red[50],  
+                    productTypeTextStyle: TextStyle(color: Colors.redAccent[400]), 
+                    brandLabel: "Brand:",
+                    brandTextStyle:  const TextStyle(color: Colors.black45, fontSize: 12),
+                    priceTextStyle: Theme.of(context).textTheme.labelLarge?.copyWith(
+                      color: Colors.redAccent[400],
+                    ),
+                    activeDotColor: Colors.orangeAccent, 
+                    dotCount:  products.length ~/ (MediaQuery.of(context).size.width / 160).floor(),
+                    isAutoScroll: false,
+                    onTap: (id) {
+                      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                        content: Text('ProductId: $id'),),);
+                    },
+                    
+                  ),
                 )
               ]           
              
