@@ -15,6 +15,7 @@ part 'features/carousel/domain/m_product_model.dart';
 part 'features/carousel/presentation/ui/m_cache_image.dart';
 part 'features/carousel/presentation/ui/m_image_widget.dart';
 part 'features/carousel/presentation/ui/m_product_carousel_widget.dart';
+part 'features/carousel/presentation/ui/m_product_grid_carousel_widget.dart';
 part 'dewan_product_carousel.freezed.dart';
 
 /// A Calculator.

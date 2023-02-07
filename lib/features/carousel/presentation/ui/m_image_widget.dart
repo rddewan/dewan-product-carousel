@@ -3,8 +3,8 @@ part of dewan_product_carousel;
 
 class MImageWidget extends StatelessWidget {
   final int qty;
-  final double imageWidth;
-  final double imageHeight;
+  final double? imageWidth;
+  final double? imageHeight;
   final String? url;
   final String label;
   final TextStyle? style;
@@ -14,8 +14,8 @@ class MImageWidget extends StatelessWidget {
   const MImageWidget({
     Key? key, 
     required this.qty, 
-    required this.imageWidth,
-    required this.imageHeight,
+    this.imageWidth,
+    this.imageHeight,
     required this.url, 
     required this.label,
     required this.style,
